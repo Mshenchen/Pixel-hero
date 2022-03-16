@@ -74,6 +74,6 @@ public class FireEnemy : MonoBehaviour
     IEnumerator isAttack()
     {
         yield return new WaitForEndOfFrame();
-        GameObject.FindGameObjectWithTag("Player").GetComponentInChildren<PlayerHp>().playercurrentHp -= 10f;
+        GameObject.FindGameObjectWithTag("Health").GetComponent<PlayerHp>().playercurrentHp -= 10f;
     }
 }
