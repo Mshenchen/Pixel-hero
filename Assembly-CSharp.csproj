@@ -62,6 +62,7 @@
     <Compile Include="Assets\Raycast2D Resources\Raycast2D Resources\视频下半部分\Scripts\Enemy\HealthBar.cs" />
     <Compile Include="Assets\Raycast2D Resources\Raycast2D Resources\视频下半部分\Scripts\Bullet.cs" />
     <Compile Include="Assets\Raycast2D Resources\Raycast2D Resources\视频下半部分\Scripts\Dialogue.cs" />
+    <Compile Include="Assets\StartGame\ButtonGame.cs" />
     <Compile Include="Assets\Raycast2D Resources\Raycast2D Resources\视频下半部分\Scripts\Talkable.cs" />
     <Compile Include="Assets\Raycast2D Resources\Raycast2D Resources\视频下半部分\Scripts\Weapon.cs" />
     <Compile Include="Assets\Raycast2D Resources\Raycast2D Resources\视频下半部分\Scripts\Smile.cs" />
@@ -72,7 +73,9 @@
     <Compile Include="Assets\Raycast2D Resources\Raycast2D Resources\视频下半部分\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Raycast2D Resources\Raycast2D Resources\视频下半部分\Scripts\Tool\CameraController.cs" />
     <Compile Include="Assets\Raycast2D Resources\Raycast2D Resources\视频下半部分\Scripts\Enemy.cs" />
-    <Compile Include="Assets\StartGame\ButtonGame.cs" />
+    <Compile Include="Assets\Raycast2D Resources\Raycast2D Resources\视频下半部分\Scripts\MenuUI\GameMenu.cs" />
+    <Compile Include="Assets\Raycast2D Resources\Raycast2D Resources\视频下半部分\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Raycast2D Resources\Raycast2D Resources\视频下半部分\Scripts\Tool\Portal.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

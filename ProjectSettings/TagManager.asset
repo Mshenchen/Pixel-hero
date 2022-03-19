@@ -8,6 +8,8 @@ TagManager:
   - Enemy
   - Health
   - wall
+  - Weapon
+  - Portal
   layers:
   - Default
   - TransparentFX

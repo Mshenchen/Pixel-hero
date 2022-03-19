@@ -13,21 +13,8 @@ public class Dialogue : MonoBehaviour
     private int currentLine;
     private bool isScrolling;
     public float textSpeed;
-    private void Awake()
-    {
-        if (instance == null)
-        {
-            instance = this;
-        }
-        else
-        {
-            if (instance != this)
-            {
-                Destroy(gameObject);
-            }
-        }
-        DontDestroyOnLoad(gameObject);
-    }
+    public bool isShowDialogue;
+    
     void Start()
     {
         dialogueText.text = dialogueLines[currentLine];
@@ -40,7 +27,7 @@ public class Dialogue : MonoBehaviour
         {
             
             
-                if (Input.GetMouseButtonDown(0))
+                if (Input.GetKeyDown(KeyCode.Space))
                 {
                     if (isScrolling == false)
                     {
@@ -64,12 +51,16 @@ public class Dialogue : MonoBehaviour
     }
     public void ShowDialogue(string[] _newLines)
     {
-        dialogueLines = _newLines;
-        currentLine = 0;
-        StartCoroutine(ScrollingText());
-        //dialogueText.text = dialogueLines[currentLine];
-        DialogueBox.SetActive(true);
-        FindObjectOfType<PlayerMovement>().canMove = false;
+        if (isShowDialogue == true)
+        {
+            dialogueLines = _newLines;
+            currentLine = 0;
+            StartCoroutine(ScrollingText());
+            //dialogueText.text = dialogueLines[currentLine];
+            DialogueBox.SetActive(true);
+            FindObjectOfType<PlayerMovement>().canMove = false;
+        }
+        
     }
     IEnumerator ScrollingText()
     {

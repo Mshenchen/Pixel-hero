@@ -23,9 +23,11 @@ public class Talkable : MonoBehaviour
     }
     private void Update()
     {
-        if (isEnterd && Input.GetKeyDown(KeyCode.Space))
+        if (isEnterd && Input.GetKeyDown(KeyCode.Space)&&Dialogue.instance.isShowDialogue == false)
         {
+            Dialogue.instance.isShowDialogue = true;
             Dialogue.instance.ShowDialogue(lines);
+            
         }
     }
 }
