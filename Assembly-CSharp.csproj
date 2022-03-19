@@ -62,20 +62,22 @@
     <Compile Include="Assets\Raycast2D Resources\Raycast2D Resources\视频下半部分\Scripts\Enemy\HealthBar.cs" />
     <Compile Include="Assets\Raycast2D Resources\Raycast2D Resources\视频下半部分\Scripts\Bullet.cs" />
     <Compile Include="Assets\Raycast2D Resources\Raycast2D Resources\视频下半部分\Scripts\Dialogue.cs" />
+    <Compile Include="Assets\Raycast2D Resources\Raycast2D Resources\视频下半部分\Scripts\MenuUI\GameMenu.cs" />
     <Compile Include="Assets\StartGame\ButtonGame.cs" />
     <Compile Include="Assets\Raycast2D Resources\Raycast2D Resources\视频下半部分\Scripts\Talkable.cs" />
-    <Compile Include="Assets\Raycast2D Resources\Raycast2D Resources\视频下半部分\Scripts\Weapon.cs" />
+    <Compile Include="Assets\Raycast2D Resources\Raycast2D Resources\视频下半部分\Scripts\Player\Weapon.cs" />
     <Compile Include="Assets\Raycast2D Resources\Raycast2D Resources\视频下半部分\Scripts\Smile.cs" />
     <Compile Include="Assets\Raycast2D Resources\Raycast2D Resources\视频下半部分\Scripts\Enemy\Wiches.cs" />
     <Compile Include="Assets\Raycast2D Resources\Raycast2D Resources\视频下半部分\Scripts\Tool\Destroyer.cs" />
     <Compile Include="Assets\Raycast2D Resources\Raycast2D Resources\视频下半部分\Scripts\PlayerHp.cs" />
+    <Compile Include="Assets\Raycast2D Resources\Raycast2D Resources\视频下半部分\Scripts\Tool\Portal.cs" />
     <Compile Include="Assets\Raycast2D Resources\Raycast2D Resources\视频下半部分\Scripts\Tool\Cursor.cs" />
-    <Compile Include="Assets\Raycast2D Resources\Raycast2D Resources\视频下半部分\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Raycast2D Resources\Raycast2D Resources\视频下半部分\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Raycast2D Resources\Raycast2D Resources\视频下半部分\Scripts\Tool\CameraController.cs" />
     <Compile Include="Assets\Raycast2D Resources\Raycast2D Resources\视频下半部分\Scripts\Enemy.cs" />
-    <Compile Include="Assets\Raycast2D Resources\Raycast2D Resources\视频下半部分\Scripts\MenuUI\GameMenu.cs" />
     <Compile Include="Assets\Raycast2D Resources\Raycast2D Resources\视频下半部分\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Raycast2D Resources\Raycast2D Resources\视频下半部分\Scripts\Tool\Portal.cs" />
+    <Compile Include="Assets\Raycast2D Resources\Raycast2D Resources\视频下半部分\Scripts\Player\hatchet.cs" />
+    <Compile Include="Assets\Raycast2D Resources\Raycast2D Resources\视频下半部分\Scripts\Item\DestroyItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

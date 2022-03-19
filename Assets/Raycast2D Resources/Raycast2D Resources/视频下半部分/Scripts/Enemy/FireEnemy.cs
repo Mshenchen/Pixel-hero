@@ -14,10 +14,12 @@ public class FireEnemy : MonoBehaviour
     public GameObject hitEffect;
     private Vector2 EndLine;
     [SerializeField] private Vector2 direction; //激光的方向
+    private CameraController cameraController;
     void Start()
     {
         Target = TargetA;
         //firePoint = GetComponentInChildren<Transform>();
+        cameraController = gameObject.GetComponent<CameraController>();
     }
 
     // Update is called once per frame
@@ -56,8 +58,8 @@ public class FireEnemy : MonoBehaviour
                 lineRenderer.SetPosition(0, hitinfo.point);
                 lineRenderer.colorGradient = redColor;
                 StartCoroutine("isAttack");
-                CameraController.instance.isShack=true;
-                CameraController.instance.ShackCamera(0.2f);
+                cameraController.isShack=true;
+                cameraController.ShackCamera(0.2f);
             }
             Instantiate(hitEffect, hitinfo.point, Quaternion.identity);
 

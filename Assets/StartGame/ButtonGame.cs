@@ -13,4 +13,5 @@ public class ButtonGame : MonoBehaviour
     {
         Application.Quit();
     }
+    
 }

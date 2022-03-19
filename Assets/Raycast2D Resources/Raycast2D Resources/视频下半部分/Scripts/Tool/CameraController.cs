@@ -2,7 +2,6 @@
 
 public class CameraController : MonoBehaviour
 {
-    public static CameraController instance;
     private Transform target;
     [SerializeField] private float smoothSpeed;
 
@@ -10,21 +9,7 @@ public class CameraController : MonoBehaviour
     public bool isShack;
     private Vector3 shackActive;
     private float shackAmplitude;
-    private void Awake()
-    {
-        if (instance == null)
-        {
-            instance = this;
-        }
-        else
-        {
-            if (instance != null)
-            {
-                Destroy(gameObject);
-            }
-        }
-        DontDestroyOnLoad(gameObject);
-    }
+
     private void Start()
     {
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
