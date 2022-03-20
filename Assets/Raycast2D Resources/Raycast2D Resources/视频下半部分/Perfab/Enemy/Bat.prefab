@@ -41,8 +41,8 @@ GameObject:
   - component: {fileID: 2359372086776581504}
   - component: {fileID: 2359372086776581507}
   - component: {fileID: 2359372086776581506}
-  - component: {fileID: 2359372086776581533}
   - component: {fileID: 2359372086776581505}
+  - component: {fileID: 1577798330}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Untagged
@@ -135,24 +135,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &2359372086776581533
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2359372086776581532}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b49799defe55324ab640643ebe9b15a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 2
-  maxHealthPoint: 0
-  distance: 4
-  wayPoint01: {fileID: 2359372086515038752}
-  wayPoint02: {fileID: 2359372087770456539}
-  wayPointTarget: {fileID: 0}
 --- !u!58 &2359372086776581505
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -169,6 +151,23 @@ CircleCollider2D:
   m_Offset: {x: 0.0038580894, y: 0.050154448}
   serializedVersion: 2
   m_Radius: 0.6298051
+--- !u!114 &1577798330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2359372086776581532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b49799defe55324ab640643ebe9b15a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 2
+  maxHealthPoint: 0
+  distance: 2
+  wayPoint01: {fileID: 2359372086515038752}
+  wayPoint02: {fileID: 2359372087770456539}
 --- !u!1 &2359372087770456538
 GameObject:
   m_ObjectHideFlags: 0
@@ -222,7 +221,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2359372088143551580}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
