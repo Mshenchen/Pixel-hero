@@ -12,7 +12,7 @@ public class hatchet : MonoBehaviour
     private Transform playerTrans;//Weapon Return Position
     private bool canComeBack;//default is false
     private bool returnWeapon;
-    private bool isDamage;
+    public bool isDamage;
     private TrailRenderer tr;
     void Start()
     {
