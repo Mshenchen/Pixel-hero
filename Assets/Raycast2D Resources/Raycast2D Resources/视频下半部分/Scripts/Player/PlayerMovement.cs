@@ -7,7 +7,6 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float moveSpeed;
     private float moveH, moveV;
     public bool canMove=true;
-
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -29,6 +28,7 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             rb.velocity = Vector2.zero;
+            
         }
         
     }

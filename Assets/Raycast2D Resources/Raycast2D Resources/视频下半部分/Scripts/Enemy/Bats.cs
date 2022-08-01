@@ -12,9 +12,9 @@ public class Bats : Enemy
         wayPointTarget = wayPoint01;//At the beginning, bat move to the right waypoint
     }
 
-
     protected override void Move()
     {
+        //Attack();
         base.Move();
 
         //MARKER Override Part
@@ -35,10 +35,10 @@ public class Bats : Enemy
         }
     }
 
-    protected override void Attack()
-    {
+    //protected override void Attack()
+    //{
 
-    }
+    //}
 
 
 }
